@@ -1,6 +1,6 @@
-#Anti-MSExplorer (jQuery Popup)
+#Anti-MSIE (jQuery Popup)
 
-Anti-MSExplorer is jQuery Popup To Stop The Use IE Browers
+Anti Microsoft Internet Explorer is jQuery Popup To Stop The Use IE Browers
 
 ## How to Install
 
