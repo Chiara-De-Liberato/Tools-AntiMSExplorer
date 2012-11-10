@@ -24,14 +24,16 @@ anti-msie (jQuery Popup)
 		<script src="./js/jquery.mobile-1.2.0.min.js"></script>
     </head>
 <body>
-		<div id="anti-msie" data-role="popup" data-history="false" >
-		  <p><img src="./img/anti-msie_it.png" alt="anti-msie" /><br /><p>
-		</div>
-		<script type="text/javascript" language="JavaScript">
-			$("#anti-msie").css("width", "300px");
-			$("#anti-msie").css("height", "480px");
-			$(":jqmData(role='page'):last").on("pageshow", function(event) {
-			  $("#anti-msie", $(this)).popup("open");
-			});
-		</script>
+		<!--[if IE]>
+			<div id="anti-msie" data-role="popup" data-history="false" >
+				<p><img src="./img/anti-msie_it.png" alt="anti-msie" /><br /><p>
+			</div>
+			<script type="text/javascript" language="JavaScript">
+				$("#anti-msie").css("width", "300px");
+				$("#anti-msie").css("height", "480px");
+				$(":jqmData(role='page'):last").on("pageshow", function(event) {
+				  $("#anti-msie", $(this)).popup("open");
+				});
+			</script>
+		<![endif]-->
 </body></html>

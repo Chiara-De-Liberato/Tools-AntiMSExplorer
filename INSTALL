@@ -14,9 +14,11 @@ How to Install
 		</script>
 		
 	3) Add css and jquery into after <body>:
-		<div id="anti-msie" data-role="popup" data-history="false" >
-			<p><img src="./img/anti-msie_it.png" alt="anti-msie" /><br /><p>
-		</div>
+		<!--[if IE]>
+			<div id="anti-msie" data-role="popup" data-history="false" >
+				<p><img src="./img/anti-msie_it.png" alt="anti-msie" /><br /><p>
+			</div>
+		<![endif]-->
 
 
 Support
