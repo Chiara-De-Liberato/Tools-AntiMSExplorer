@@ -6,21 +6,21 @@ Anti-MSExplorer is jQuery Popup To Stop The Use IE Browers
 
 1) Copy anti-ie image, css and js from src folder to your website and fix path on step2 and step3.
 
-2) Add css and jquery into <head></head>:
+2) Add css and jquery into `<head></head>`:
 ```html
-		<link href="./css/jquery.mobile-1.2.0.min.css" rel="stylesheet" />
-		<script src="./js/jquery.js"></script>
-		<script src="./js/jquery.mobile-1.2.0.min.js"></script>
-		<script type="text/javascript" language="JavaScript">
-			$("#anti-msie").css("width", "300px");
-			$("#anti-msie").css("height", "480px");
-			$(":jqmData(role='page'):last").on("pageshow", function(event) {
-			  $("#anti-msie", $(this)).popup("open");
-			});
-		</script>
+	<link href="./css/jquery.mobile-1.2.0.min.css" rel="stylesheet" />
+	<script src="./js/jquery.js"></script>
+	<script src="./js/jquery.mobile-1.2.0.min.js"></script>
+	<script type="text/javascript" language="JavaScript">
+		$("#anti-msie").css("width", "300px");
+		$("#anti-msie").css("height", "480px");
+		$(":jqmData(role='page'):last").on("pageshow", function(event) {
+		  $("#anti-msie", $(this)).popup("open");
+		});
+	</script>
 ```
     
-3) Add css and jquery into after <body>:
+3) Add css and jquery into after `<body>`:
 ```html
 	<!--[if IE]>
 		<div id="anti-msie" data-role="popup" data-history="false" >
