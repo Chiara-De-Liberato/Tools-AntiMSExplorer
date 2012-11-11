@@ -17,6 +17,7 @@
  *   along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 ?>
+<!--[if IE]>
 	<?php 
 		include_once("jquery.php");
 		$browser_lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
@@ -42,5 +43,4 @@
 		  $("#anti-msie", $(this)).popup("open");
 		});
 	</script>
-<!--[if IE]>
 <![endif]-->
