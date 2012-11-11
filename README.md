@@ -8,7 +8,7 @@ Anti Microsoft Internet Explorer is jQuery Popup To Stop The Use IE Browers
 
 2) Add script and jquery before `</body>`:
 ```php
-	<?php include_once("anti-msie/anti-msie.php"); ?>
+<?php include_once("anti-msie/anti-msie.php"); ?>
 ```
 
 ## Support
