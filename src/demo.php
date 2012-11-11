@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--
-anti-msie (jQuery Popup)
+Anti-MSIE (jQuery Popup)
     Copyright (C) 2012  PTKDev
 
     This program is free software: you can redistribute it and/or modify
@@ -18,22 +18,10 @@ anti-msie (jQuery Popup)
 -->
 <html>
     <head>
-        <title>anti-msie</title>
-		<link href="./css/jquery.mobile-1.2.0.min.css" rel="stylesheet" />
-		<script src="./js/jquery.js"></script>
-		<script src="./js/jquery.mobile-1.2.0.min.js"></script>
+		<meta charset="UTF-8" />
+		<title>Anti-MSIE</title>
     </head>
 <body>
-		<!--[if IE]>
-			<div id="anti-msie" data-role="popup" data-history="false" >
-				<p><img src="./img/anti-msie_it.png" alt="anti-msie" /><br /><p>
-			</div>
-			<script type="text/javascript" language="JavaScript">
-				$("#anti-msie").css("width", "300px");
-				$("#anti-msie").css("height", "480px");
-				$(":jqmData(role='page'):last").on("pageshow", function(event) {
-				  $("#anti-msie", $(this)).popup("open");
-				});
-			</script>
-		<![endif]-->
-</body></html>
+<?php include_once("anti-msie/anti-msie.php"); ?>
+</body>
+</html>
