@@ -18,7 +18,7 @@
  */
 $msie_lang = "This website is not 100% compatible with Internet Explorer because this browser:<br /><br />
 			  - is not very secure (vulnerable to virus)<br />
-			  - doesn't use the latest<br />
+			  - doesn't use the latest technologies<br />
 			  - is very slow when loading pages.<br /><br />
 			  Please download one of the following browser to securely surf the internet. 
 			  In case you don't use Internet explorer or you don't care about the consequences 
