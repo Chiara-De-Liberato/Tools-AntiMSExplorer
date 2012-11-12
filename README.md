@@ -8,7 +8,24 @@ Anti Microsoft Internet Explorer is jQuery Popup To Stop The Use IE Browers
 
 2) Add script and jquery before `</body>`:
 ```php
-<?php include_once("anti-msie/anti-msie.php"); ?>
+<?php 
+$antimsie_path = "";
+echo '<script type="text/javascript" src="'.$antimsie_path.'anti-msie/js/jquery.js"></script>';
+include_once("anti-msie/anti-msie.php"); 
+?>
+```
+
+## How to Install: Wordpress
+
+1) Copy src/anti-msie folder into wptheme
+
+2) Add script and jquery before `</body>`:
+```php
+<?php 
+$antimsie_path = get_bloginfo('template_url')."/";
+echo '<script type="text/javascript" src="'.$antimsie_path.'anti-msie/js/jquery.js"></script>';
+include_once("anti-msie/anti-msie.php"); 
+?>
 ```
 
 ## Support

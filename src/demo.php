@@ -22,6 +22,10 @@ Anti-MSIE (jQuery Popup)
 		<title>Anti-MSIE</title>
     </head>
 <body>
-<?php include_once("anti-msie/anti-msie.php"); ?>
+<?php 
+$antimsie_path = "";
+echo '<script type="text/javascript" src="'.$antimsie_path.'anti-msie/js/jquery.js"></script>';
+include_once("anti-msie/anti-msie.php"); 
+?>
 </body>
 </html>
